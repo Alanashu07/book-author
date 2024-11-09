@@ -61,9 +61,9 @@ void addRating({required BuildContext context, required Book book}) {
         padding: const EdgeInsets.symmetric(vertical: 10),
         height: 350,
         width: mq.width,
-        decoration: BoxDecoration(
-            color: isLightTheme(context) ? Colors.white : Colors.grey[900],
-            borderRadius: const BorderRadius.only(
+        decoration: const BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.only(
                 topLeft: Radius.circular(20), topRight: Radius.circular(20))),
         child: Column(
           children: [
